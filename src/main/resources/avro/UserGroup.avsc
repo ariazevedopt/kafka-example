@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "UserGroup",
+  "namespace": "com.kafka.schema",
+  "fields": [
+    {
+      "name": "group",
+      "type": "string",
+      "default": ""
+    }
+  ]
+}

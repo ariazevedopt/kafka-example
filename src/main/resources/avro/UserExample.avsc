@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "name": "UserExample",
+  "namespace": "com.kafka.schema",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "default": ""
+    },{
+      "name": "gender",
+      "type": "string",
+      "default": ""
+    },{
+      "name": "age",
+      "type": "int",
+      "default": ""
+    },{
+      "name": "group",
+      "type": "string",
+      "default": ""
+    }
+  ]
+}
